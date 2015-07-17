@@ -4,10 +4,6 @@ __author__ = 'Javier'
 
 class television():
 
-    encendido = False
-    volumen = 5
-    canal = 0
-
     def __init__(self, encendido=False, volumen=5, canal=0):
         self.encendido = encendido
         self.volumen = volumen
